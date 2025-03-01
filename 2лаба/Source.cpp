@@ -13,6 +13,7 @@ potato lol 63 6.32
 cola jojo 5 9.64
 candy trot 3 2.3243
 jelly jel 9 4.65
+achtung heil 14 0.88
 */
 
 int main() {

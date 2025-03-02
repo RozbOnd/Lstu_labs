@@ -1,4 +1,4 @@
-#pragma once
+ï»¿#pragma once
 #include "Sorting.h"
 
 using namespace std;
@@ -16,9 +16,9 @@ void match_search_a(element* els, int size, char str[]) {
         else if (cmp < 0) left = mid + 1;
         else right = mid - 1;
     }
-    if (f == 0) cout << "Â ìàññèâå íåò ýëåìåíòà ñ òàêèì çíà÷åíèåì êëþ÷à :(\n";
+    if (f == 0) cout << "Ð’ Ð¼Ð°ÑÑÐ¸Ð²Ðµ Ð½ÐµÑ‚ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð° Ñ Ñ‚Ð°ÐºÐ¸Ð¼ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸ÐµÐ¼ ÐºÐ»ÑŽÑ‡Ð° :(\n";
     else {
-        cout << "Çàïèñü ñ êëþ÷îì " << str << ":\n";
+        cout << "Ð—Ð°Ð¿Ð¸ÑÑŒ Ñ ÐºÐ»ÑŽÑ‡Ð¾Ð¼ " << str << ":\n";
         els[mid].print();
     }
 }
@@ -36,9 +36,9 @@ void match_search_b(element* els, int size, char* str) {
         else if (cmp < 0) left = mid + 1;
         else right = mid - 1;
     }
-    if (f == 0) cout << "Â ìàññèâå íåò ýëåìåíòà ñ òàêèì çíà÷åíèåì char* :(\n";
+    if (f == 0) cout << "Ð’ Ð¼Ð°ÑÑÐ¸Ð²Ðµ Ð½ÐµÑ‚ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð° Ñ Ñ‚Ð°ÐºÐ¸Ð¼ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸ÐµÐ¼ char* :(\n";
     else {
-        cout << "Çàïèñü ñ char* " << str << ":\n";
+        cout << "Ð—Ð°Ð¿Ð¸ÑÑŒ Ñ char* " << str << ":\n";
         els[mid].print();
     }
 }
@@ -55,9 +55,9 @@ void match_search_c(element* els, int size, int num) {
         else if (els[mid].c < num) left = mid + 1;
         else right = mid - 1;
     }
-    if (f == 0) cout << "Â ìàññèâå íåò ýëåìåíòà ñ òàêèì çíà÷åíèåì int :(\n";
+    if (f == 0) cout << "Ð’ Ð¼Ð°ÑÑÐ¸Ð²Ðµ Ð½ÐµÑ‚ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð° Ñ Ñ‚Ð°ÐºÐ¸Ð¼ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸ÐµÐ¼ int :(\n";
     else {
-        cout << "Çàïèñü ñ int " << num << ":\n";
+        cout << "Ð—Ð°Ð¿Ð¸ÑÑŒ Ñ int " << num << ":\n";
         els[mid].print();
     }
 }
@@ -74,9 +74,9 @@ void match_search_d(element* els, int size, float num) {
         else if (els[mid].d < num) left = mid + 1;
         else right = mid - 1;
     }
-    if (f == 0) cout << "Â ìàññèâå íåò ýëåìåíòà ñ òàêèì çíà÷åíèåì float :(\n";
+    if (f == 0) cout << "Ð’ Ð¼Ð°ÑÑÐ¸Ð²Ðµ Ð½ÐµÑ‚ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð° Ñ Ñ‚Ð°ÐºÐ¸Ð¼ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸ÐµÐ¼ float :(\n";
     else {
-        cout << "Çàïèñü ñ float " << num << ":\n";
+        cout << "Ð—Ð°Ð¿Ð¸ÑÑŒ Ñ float " << num << ":\n";
         els[mid].print();
     }
 }

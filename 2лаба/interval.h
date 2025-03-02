@@ -1,4 +1,4 @@
-#pragma once
+ï»¿#pragma once
 #include "Sorting.h"
 
 void interval_search_a(element* els, int size, char* start, char* end) {
@@ -25,10 +25,10 @@ void interval_search_a(element* els, int size, char* start, char* end) {
     int end_index = right;
 
     if (start_index <= end_index) {
-        cout << "Çàïèñè â èíòåðâàëå [" << start << "; " << end << "]:" << '\n';
+        cout << "Ð—Ð°Ð¿Ð¸ÑÐ¸ Ð² Ð¸Ð½Ñ‚ÐµÑ€Ð²Ð°Ð»Ðµ [" << start << "; " << end << "]:" << '\n';
         for (int i = start_index; i <= end_index; i++) els[i].print();
     }
-    else cout << "Çàïèñè â èíòåðâàëå [" << start << "; " << end << "] íå íàéäåíû." << '\n';
+    else cout << "Ð—Ð°Ð¿Ð¸ÑÐ¸ Ð² Ð¸Ð½Ñ‚ÐµÑ€Ð²Ð°Ð»Ðµ [" << start << "; " << end << "] Ð½Ðµ Ð½Ð°Ð¹Ð´ÐµÐ½Ñ‹." << '\n';
 }
 
 void interval_search_b(element* els, int size, char* start, char* end) {
@@ -55,10 +55,10 @@ void interval_search_b(element* els, int size, char* start, char* end) {
     int end_index = right;
 
     if (start_index <= end_index) {
-        cout << "Çàïèñè â èíòåðâàëå [" << start << "; " << end << "]:" << '\n';
+        cout << "Ð—Ð°Ð¿Ð¸ÑÐ¸ Ð² Ð¸Ð½Ñ‚ÐµÑ€Ð²Ð°Ð»Ðµ [" << start << "; " << end << "]:" << '\n';
         for (int i = start_index; i <= end_index; i++) els[i].print();
     }
-    else cout << "Çàïèñè â èíòåðâàëå [" << start << "; " << end << "] íå íàéäåíû." << '\n';
+    else cout << "Ð—Ð°Ð¿Ð¸ÑÐ¸ Ð² Ð¸Ð½Ñ‚ÐµÑ€Ð²Ð°Ð»Ðµ [" << start << "; " << end << "] Ð½Ðµ Ð½Ð°Ð¹Ð´ÐµÐ½Ñ‹." << '\n';
 }
 
 void interval_search_c(element* els, int size, int start, int end) {
@@ -83,10 +83,10 @@ void interval_search_c(element* els, int size, int start, int end) {
     int end_index = right;
 
     if (start_index <= end_index) {
-        cout << "Çàïèñè â èíòåðâàëå [" << start << "; " << end << "]:" << '\n';
+        cout << "Ð—Ð°Ð¿Ð¸ÑÐ¸ Ð² Ð¸Ð½Ñ‚ÐµÑ€Ð²Ð°Ð»Ðµ [" << start << "; " << end << "]:" << '\n';
         for (int i = start_index; i <= end_index; i++) els[i].print();
     }
-    else cout << "Çàïèñè â èíòåðâàëå [" << start << "; " << end << "] íå íàéäåíû." << '\n';
+    else cout << "Ð—Ð°Ð¿Ð¸ÑÐ¸ Ð² Ð¸Ð½Ñ‚ÐµÑ€Ð²Ð°Ð»Ðµ [" << start << "; " << end << "] Ð½Ðµ Ð½Ð°Ð¹Ð´ÐµÐ½Ñ‹." << '\n';
 }
 
 void interval_search_d(element* els, int size, float start, float end) {
@@ -111,8 +111,8 @@ void interval_search_d(element* els, int size, float start, float end) {
     int end_index = right;
 
     if (start_index <= end_index) {
-        cout << "Çàïèñè â èíòåðâàëå [" << start << "; " << end << "]:" << '\n';
+        cout << "Ð—Ð°Ð¿Ð¸ÑÐ¸ Ð² Ð¸Ð½Ñ‚ÐµÑ€Ð²Ð°Ð»Ðµ [" << start << "; " << end << "]:" << '\n';
         for (int i = start_index; i <= end_index; i++) els[i].print();
     }
-    else cout << "Çàïèñè â èíòåðâàëå [" << start << "; " << end << "] íå íàéäåíû." << '\n';
+    else cout << "Ð—Ð°Ð¿Ð¸ÑÐ¸ Ð² Ð¸Ð½Ñ‚ÐµÑ€Ð²Ð°Ð»Ðµ [" << start << "; " << end << "] Ð½Ðµ Ð½Ð°Ð¹Ð´ÐµÐ½Ñ‹." << '\n';
 }
